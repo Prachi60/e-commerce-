@@ -1,0 +1,56 @@
+.color{
+    background-color: rgb(246, 249, 250) !important;
+    height: auto;
+    margin-top: 100px; 
+    width: 100%;
+    display: flow-root;
+}
+.bottom{
+    margin-top: 30px;
+    width: 98%;
+    height: 50px ;
+    background-color:white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:10px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+   
+
+}
+.left-side{
+    font-size: 20px;
+    font-weight: 600;
+}
+.right{
+    margin-left:1240 px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.mycart{
+    display: flex;
+    align-items: center;
+   gap: 10px;
+
+} 
+.login_sec{
+    width: 100%;
+    padding: 0px 20px 30px;
+   
+}
+.container-weidge{
+    background-color: white;
+    padding: 30px  200px;
+    
+}
+.left-contain img{
+    max-width: 600px;
+
+}

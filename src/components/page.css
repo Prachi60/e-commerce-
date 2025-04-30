@@ -1,0 +1,367 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page {
+  background-color: rgb(246, 249, 250);
+  height: auto;
+  margin-top: 86px;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 500px;
+  left: 300px;
+  bottom: -30px;
+  width: 30px;
+  border-radius: 90% !important;
+  height: 30px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #ccc;
+  border-radius: 50% !important;
+}
+.carousel-indicators .active {
+  background-color: rgb(181, 168, 168);
+}
+.carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+}
+.banner {
+  width: 100%;
+}
+.banner {
+  padding: 40px 20px;
+  width: 100%;
+  border-radius: 40px;
+}
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.carousel-indicators {
+  left: auto;
+  bottom: -52px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.slider_wrp {
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+}
+.slick-dots li button {
+  color: black;
+  opacity: 0.25;
+  background-color: #000 !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+.slick-dots li.slick-active button {
+  opacity: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
+.slick-track {
+  display: flex !important;
+}
+
+button.slick-arrow.slick-next,
+button.slick-arrow.slick-prev {
+  display: none !important;
+}
+
+.slider-container {
+  margin-top: 40px;
+}
+
+.slick-list {
+  height: auto;
+}
+
+.slick-slide {
+  margin-right: 10px;
+  min-width: 230px;
+}
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.slick-slider.slick-initialized {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.slick-slider.slick-initialized .slick-slide {
+  display: block;
+}
+ul.slick-dots {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+ul.slick-dots button {
+  display: none;
+}
+.slider_wrp {
+  padding: 20px;
+}
+.cards {
+  min-width: 200px;
+  max-height: 350px;
+  box-shadow: 1px 1px rgb(238, 229, 229);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+.cards img {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+}
+.cards button {
+  background-color: orange;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+.second-container {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+.slider_wrp  h2{
+  position: relative;
+}
+
+.second-container h2{
+  position: relative;
+  
+}
+.second-container h2::before,.slider_wrp  h2::before{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: aqua;
+  left: 0;
+  bottom: -10px;
+
+}
+.second-container h2::after, .slider_wrp  h2::after{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: aqua;
+  left: 100px;
+  bottom: -10px;
+}
+.searchbox input {
+  position: relative;
+}
+.searchbox i {
+  position: absolute;
+}
+.fa-arrow-right:before {
+  content: "\f061";
+  color: white;
+}
+
+.Wrap {
+  display: flex;
+  flex-direction: row;
+}
+.other-card {
+  min-width: 300px;
+  max-height: 350px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.cards p {
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cards span{
+  font-size: 15px;
+  color: #ccc;
+}
+.cards button i{
+    color: white;
+    margin-left: 30px;
+}
+.cards i{
+    color: red;
+    font-size: 20px;
+    margin-left: 250px;
+}
+
+.fa-heart liked{
+  color: red!important;
+}
+.other-card img {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+}
+.other-card button {
+  background-color: orange;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.newsletter-wrapper {
+  padding: 40px 50px;
+}
+.newsletter {
+  background-image: url(../components/newsletter.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 260px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 40px;
+  padding-left: 250px;
+}
+
+.newsletter h2 {
+  color: white;
+}
+.search_box_wrp {
+  width: 500px;
+  background-color: #fff;
+  height: 50px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 6px 8px 12px;
+}
+.search_box_wrp button {
+  width: 200px;
+  height: auto;
+  color: white;
+}
+
+.newsletter i {
+  color: rgb(163, 163, 238);
+}
+@media (prefers-color-scheme: light) {
+  button {
+    background-color: orange;
+  }
+}
+.input_field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.input_field input {
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+.input_field,
+.input_field input:focus-visible {
+  outline: none;
+}
+.Container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.footer_widget img {
+  width: 150px;
+  height: 45px;
+}
+
+.footer{
+    width: 100%;
+    background-color: white;
+    padding: 50px 0px ;
+    
+
+}
+
+.footer_wrp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: gray;
+    font-size:13px;
+    padding: 30px 0px;
+    border-top: 2px dotted;
+    border-bottom: 2px dotted;
+  
+}
+.footer_wrp h5{
+    color: black;
+    margin-bottom: 30px;
+
+}
+.footer_img{
+    display: flex;
+    gap: 10px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 0px 0px;
+
+}
+.footer_sen{
+    font-size: 16px;
+    color: gray;
+}
+.footer_Sen1{
+     display: flex;
+     gap: 10px;
+    font-size: 16px;
+    color: gray;
+    align-items: baseline;
+}
+.footer-icon {
+    font-size: 16px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
