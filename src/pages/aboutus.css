@@ -1,0 +1,82 @@
+
+.about_pg img{
+    width: 100%;
+    height: 300px;
+    margin-top:60px
+}
+.vegetable_pg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+
+}
+.vegetable_image{
+    width: 700px;
+}
+.vegetable_image img{
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+   
+}
+.vegetable_image img:hover{
+   
+    transform: scale(1.05);
+}
+.vegetable_content{
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+}
+.review_title h4{
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-bottom:10px ;
+}
+.review_title h2{
+    padding-bottom: 30px;
+}
+.delivery_list p{
+    text-transform: capitalize;
+}
+.client_section{
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.client_intro span{
+    font-size: calc(16px + 5 * (100vw - 320px) / 1600);
+    margin-bottom: calc(7px + 6 * (100vw - 320px) / 1600);
+    color: #009fbc;
+    font-family: "Pacifico", cursive;
+    margin-top: 30px;  
+}
+.client_intro {
+    margin-top: 60px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.client_card_box{
+ display: flex;
+ gap: 20px;
+ margin-bottom: 50px;
+}
+.client_card{
+    background-color: white;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+}

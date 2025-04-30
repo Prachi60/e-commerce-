@@ -1,178 +1,240 @@
-.navbar{
-    top: 0;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    
-
+.navbar {
+  top: 0;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
-.image img{
-    width: 140px;
+.image img {
+  width: 167px;
 }
 .searchbar {
-    display: flex;
-    align-items: center;
-    width: 500px;
-    padding: 10px;
-    
-  }
-.searchbar input{
+  display: flex;
+  align-items: center;
+  width: 500px;
+  padding: 10px;
+}
+.searchbar input {
   height: 43px;
   width: 100%;
   padding: 5px 10px;
-  border-radius: 5px ;
-  border: 0.5px  solid rgb(220, 204, 204);
+  border-radius: 5px;
+
+  border: 0.5px solid rgb(246, 241, 241) !important;
   font-size: 14px;
 }
-.searchbar i{
-     background-color: orange;
-    color: white;
-    width: 45px;
-    height: 43px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius:  0 5px 5px 0  ;
-    margin-left: -43px;
-    cursor: pointer;
-    
+.searchbar input::placeholder{
+  font-size: 15px;
 }
-.right-side{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    
+.searchbar i {
+  background-color: orange;
+  color: white;
+  width: 45px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 5px 5px 0;
+  margin-left: -43px;
+  cursor: pointer;
 }
-.right-side i{
-    font-size: 20px;
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-.right-side a{
-    text-decoration: none;
-    color: black;
-    font-weight: 400;
+.right-side i {
+  font-size: 20px;
+  
 }
-.logindetails{
-    position: relative;
+.right-side a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+
 }
-.loginbutton{
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    
+.logindetails {
+  position: relative;
 }
-.loginbutton .text{
-    padding-right: 0px !important;
+.loginbutton {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.loginbutton .text {
+  padding-right: 0px !important;
 }
 
 
-.logindropdown{
-   position: absolute;
-    opacity: 0;
-    visibility: hidden;
-    height: 150px;
-    width: 100px;
-    background:white;
-    color:black;
-    top: 40px;
-    left: 0;
-    z-index: 999;
-    transition: all ease-in 0.2s;
-    transform: translateY(30px);
-
-    font-size: 20px;
-   
+.logindropdown {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 10px;
+  width: 200px;
+  background: white;
+  color: black;
+  top: 40px;
+  left: 0;
+  z-index: 999;
+  transition: all ease-in 0.2s;
+  transform: translateY(30px);
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 0px 34.5px 13px -1px rgb(211, 209, 209)
+}
+.logdrop{
+  padding: 10px;
+  display: flex;
+  /* gap: 10px; */
+  font-size: 20px!important;
+  flex-direction: column;
 
 }
-.logindetails:hover .logindropdown{
-    visibility: visible;
-    opacity: 1;
-    transform: translateY(0);
+.logdrop i{
+  margin-right: 6px;
+}
+.logdrop a:hover{
+  color: red;
+}
+
+.logindropdown p{
+    color: rgb(243, 106, 106);
+    font-weight: 600;
+}
+.logindetails:hover .logindropdown {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.number {
+  background-color: red;
+  color: white;
+  font-size: 13px;
+  height: 18px;
+  width: 18px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.text {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.categories button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 7px;
+}
+.categories {
+  display: flex;
+  align-items: center;
+  margin-right: -150px;
+}
+.categories {
+  position: relative;
+}
+
+.categorydropdown {
+  visibility: hidden;
+  width: 300px;
+  opacity: 0;
+  background-color:rgb(255, 255, 255);
+  color: black;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  transition: all ease-in 0.3s;
+  transform: transformY(30px);
+  font-size: 20px;
+  box-shadow: rgb(221, 221, 221) 0px 0px 8px;
+}
+.productdetails:hover .categorydropdown {
+  visibility: visible;
+  opacity: 1;
+}
+.categories_details button{
+  font-size: 18px;
+}
+.categories_details img{
+  margin-top: -5px;
+  width: 22px;
+}
+.categorydropdown {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+.categorydropdown img {
+  height: 20px;
+  width: 20px;
+  max-width: 20px;
+  min-width: 20px;
+}
+.categorydropdownlist {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
  
-
+.categorydropdown span {
+  color: gray;
+  font-size: 15px;
+  flex-grow: 1;
 }
-
-.number{
-    background-color: red;
-    color: white;
-    font-size: 10px;
-    height:15px;
-    width: 15px;
-    display: flex;
-    justify-content: center;
-    margin-top: -20px;
-    margin-left: -20px;
-    
+.categorydropdown i {
+  font-size: 10px;
+  color: gray;
+  
 }
-
-.text{
-    font-size:20px ;
-    padding-right: 10px;
-}
-
-
-.categories button{
-    background-color: orange;
-    color: white;
-    border: none;
-    
-}
-.categories{
-    display: flex;
-    align-items: center;
-    margin-right: -150px;
-    
-}
-.categories{
+.categorydropdownlist{
     position: relative;
 }
-/* .categories_details{
+.onhover_categ_drop{
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  top: 0px;
+  left:300px ;
+  visibility: hidden;
+  opacity: 0;
+  background-color:rgb(255, 255, 255);
+  color: black;
+  transition: all ease-in 0.3s;
+  transform: transformX(30px);
+  padding: 20px;
+  font-size: 15px;
+  box-shadow: rgb(221, 221, 221) 0px 0px 8px;
 
-} */
- .categorydropdown{
-    visibility: hidden;
-    height: 400px;
-    width: 300px;
-    opacity: 0;
-    background-color:white;
-    color: black;
+}
+.onhover_category_drop_wrp:hover .onhover_categ_drop{
+  visibility: visible;
+  opacity: 1;
+}
+.categorydropdownlist span::after{
     position: absolute;
-    top: 50px;
-    left: 0;
-    transition: all ease-in 0.3s;
-    transform: transformY(30px);
-    font-size: 20px;
-
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: aqua;
+   left: 34px;
+   bottom: 0;
+    transition: all ease-in 0.2s; 
 }
-.productdetails:hover .categorydropdown{
-    visibility: visible;
-    opacity: 1;
+.categorydropdownlist:hover span::after{
+    width: 40px;
 }
-.categorydropdown{
-    padding: 20px 20px ;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
-
-    
-} 
-.categorydropdown img{
-    height: 20px;
-    width: 20px;
-    max-width: 20px;
-    min-width: 20px;
-
-}
-.categorydropdown span{
-     padding: 60px 20px 100px 10px;
-    color: gray;
-    font-size: 15px;
-}
-
-

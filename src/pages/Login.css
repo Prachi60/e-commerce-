@@ -1,56 +1,134 @@
-.color{
-    background-color: rgb(246, 249, 250) !important;
-    height: auto;
-    margin-top: 100px; 
-    width: 100%;
-    display: flow-root;
+.colors {
+  background-color: rgb(246, 249, 250) !important;
+  height: auto;
+  margin-top: 100px;
+  width: 100%;
+  display: flow-root;
 }
-.bottom{
+.bottomm {
+  margin-top: 30px;
+  width: 98%;
+  height: 50px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.left-sidee {
+  font-size: 20px;
+  font-weight: 600;
+}
+.rightt {
+  margin-left: 1260 px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.rightt {
+    margin-left: 1240px;}
+.mycartt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.login_sec {
+  width: 100%;
+  padding: 0px 20px 30px;
+}
+.container-weidge {
+  background-color: white;
+  padding: 30px 200px;
+}
+.left-contain img {
+  max-width: 600px;
+}
+.right-contain {
+  width: 50%;
+  
+  display: flex;
+  align-items: center;
+}
+.login_page {
+  width: 500px;
+  
+  background-color: rgb(248, 248, 248);
+  margin-left: 700px;
+  margin-top: -530px;
+  border-radius: 20px;
+  padding: 50px 40px;
+}
+.login_page h4 {
+  font-weight: 400;
+}
+.login_page span {
+  font-size: 18px;
+  color: gray;
+}
+.email input {
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.password input {
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+.remember {
+  font-size: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.remember input {
+  width: 20px;
+  border: none;
+}
+.remember span {
+  color: rgb(19, 197, 197);
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 170px;
+}
+.loginbtn button {
+    color: white;
+    width: 100%;
+    height: 50px;
     margin-top: 30px;
-    width: 98%;
-    height: 50px ;
-    background-color:white;
+    margin-bottom: 15px;
+}
+.signup_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup_link span{
+    margin-top: 20px;
     color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius:10px ;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-   
-
+    font-size: 17px;
 }
-.left-side{
-    font-size: 20px;
-    font-weight: 600;
-}
-.right{
-    margin-left:1240 px;
+.signup{
     display: flex;
     align-items: center;
-    gap: 5px;
-
-}
-.mycart{
-    display: flex;
-    align-items: center;
-   gap: 10px;
-
-} 
-.login_sec{
-    width: 100%;
-    padding: 0px 20px 30px;
-   
-}
-.container-weidge{
-    background-color: white;
-    padding: 30px  200px;
+    justify-content: center;
     
 }
-.left-contain img{
-    max-width: 600px;
 
+a {
+    font-weight: 450;
+    font-size: 17px;
+    color:rgb(19, 197, 197) ;
+    text-decoration: inherit;
 }

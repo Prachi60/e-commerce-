@@ -1,0 +1,146 @@
+.top-header {
+  background-color: rgb(246, 249, 250) !important;
+  height: auto;
+  margin-top: 100px;
+  width: 100%;
+  display: flow-root;
+}
+.sub-head {
+  margin-top: 30px;
+  width: 98%;
+  height: 50px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.left-posi {
+  font-size: 20px;
+  font-weight: 600;
+}
+.rightt-posi {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.rightt-posi {
+  margin-left: 1313px;
+}
+.wishlist {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* .wishcontain{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+
+  }   */
+.wishcontain {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.wishlist-item {
+  height: auto;
+  background-color: white;
+  color: black;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 0px 10px 10px 10px;
+}
+
+.removeitem {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.wishlist-item .img_wrp {
+  width: 120px;
+  height: 120px;
+  margin: 15px auto;
+}
+.wishlist-item .img_wrp img {
+  width: 100%;
+  height: 100%;
+}
+.text_trauncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+  font-weight: 500;
+}
+p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.productunit span {
+  color: gray;
+}
+
+.productprice p {
+  color: rgb(39, 39, 153);
+  font-weight: 500;
+}
+.btn_disable button {
+  cursor: auto;
+  background-color: orange;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  border: none;
+}
+
+.removeitem i {
+  font-size: 30px;
+  background-color: white;
+  color: red;
+  position: relative;
+  border-radius: 20px;
+}
+.alter_wrp {
+  width: 100%;
+  background-color: white;
+  padding: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 20px 50px 20px;
+}
+.alternate_wish img {
+  margin-top: -46px;
+  width: 400px;
+  height: 300px;
+}
+.alterwishtext p {
+  font-size: 20px;
+  font-weight: 450;
+}
+.alterwish_shop {
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+.alterwish_shop button {
+  color: white;
+  background-color: orange;
+}
+.alterwish_shop i {
+  font-size: 20px;
+}

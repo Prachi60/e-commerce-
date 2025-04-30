@@ -1,0 +1,133 @@
+.colours {
+  background-color: rgb(246, 249, 250) !important;
+  height: auto;
+  margin-top: 100px;
+  width: 100%;
+  display: flow-root;
+}
+.bottomme {
+  margin-top: 30px;
+  width: 98%;
+  height: 50px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.left-sidee {
+  font-size: 20px;
+  font-weight: 600;
+}
+.rightt-sidee {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.rightt-sidee {
+  margin-left: 1220px;
+}
+.my-cartt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.signup_Sec {
+  padding: 0px 20px 30px;
+}
+.contain_w {
+  background-color: white;
+  padding: 30px 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.left_containn img {
+  max-width: 600px;
+}
+.right_contain {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.signup_pg {
+  width: 600px;
+  margin-top: -30px;
+  
+  background-color: rgb(248, 248, 248);
+  border-radius: 20px;
+  padding: 50px 40px;
+}
+.signup_pg h4{
+    font-weight: 400;
+}
+.create_new label{
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.name input{
+    width: 250px;
+    height: 50px;
+    padding: 20px;
+    border: 1px  solid rgb(237, 230, 230);
+    margin-bottom: 20px;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+}
+.phone input{
+    width: 250px;
+    height: 50px;
+    padding: 20px;
+    border: 1px  solid rgb(237, 230, 230);
+    margin-bottom: 20px;
+
+}
+.pass input{
+    width: 250px;
+    height: 50px;
+    padding: 20px;
+    border: 1px  solid rgb(237, 230, 230);
+    margin-bottom: 20px;
+
+}
+.terms{
+    display: flex;
+    align-items: center;
+}
+.terms input{
+    width: 20px;
+    height: 20px;
+    border:1px solid rgb(237, 230, 230);
+    margin-bottom: 20px;
+}
+.signbtn button{
+    width: 100%;
+    color: white;
+    margin-bottom: 10px;
+    border: none;
+
+}
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
