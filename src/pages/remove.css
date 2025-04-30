@@ -1,0 +1,46 @@
+.react_alert{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:  #ffffffe6;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    animation: react-confirm-alert-fadeIn .5s .2s forwards;;
+}
+.react_alert_message{
+    box-sizing: border-box;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    margin-left: 600px;
+    
+    box-shadow: 0 20px 75px #00000021 ;
+    padding: 20px;
+}
+.react_alert_button_group {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+.react_alert_button_group button{
+    background-color: #149cbb !important;
+    color: white;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+}
+.custom-toast{
+  background-color: rgb(21, 121, 160)!important;
+  color: white!important;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 16px;
+  z-index: 999;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.react_alert{
+    z-index:  999!important;
+}

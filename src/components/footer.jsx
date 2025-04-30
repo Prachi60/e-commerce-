@@ -1,8 +1,10 @@
-import React from 'react';
-import './page.css';
-import Logo from './logo.png'; 
-import Google from './google.png'; 
-import Apple from './Apple.png'; 
+import React from "react";
+import "./page.css";
+import { Link } from "react-router-dom";
+import Kulie from "./Kulie.png";
+
+import Google from "./google.png";
+import Apple from "./Apple.png";
 
 const Footer = () => {
   return (
@@ -10,53 +12,71 @@ const Footer = () => {
       <div className="container-sm">
         <div className="footer_wrp">
           <div className="footer_widget">
-            <img src={Logo} alt="Company Logo" />
+            <div className="company_image">
+              <img src={Kulie} alt="Company Logo" />
+            </div>
+
             <br />
             <span>69 Selous Ave, Harare, Zimbabwe</span>
             <br />
             <span>Support: (+263) 030000052</span>
-            <br /><br /><br />
+            <br />
+            <br />
+            <br />
             <span>info@demo.com</span>
             <br />
           </div>
 
           <div className="footer_widget">
             <h5>Help Center</h5>
-            <span>FAQ</span>
-            <br />
-            <span>About E-Commerce</span>
-            <br />
-            <span>Support Ticket</span>
-            <br />
-            <span>Contact Us</span>
-            <br />
+            <div className="foot_contain">
+              <ul>
+              <li>FAQ</li>
+
+             <Link to= "/aboutus">
+             
+              <li>About Kulies.com</li></Link>
+
+              <li>Support Ticket</li>
+
+              <li>Contact Us</li>
+              </ul>
+            </div>
           </div>
 
           <div className="footer_widget">
             <h5>Quick Links</h5>
-            <span>Become A Supplier</span>
-            <br />
-            <span>Track Order</span>
-            <br />
-            <span>Services & Membership</span>
-            <br />
-            <span>Help & Community</span>
-            <br />
+            <div className="foot_contain">
+              <ul>
+              <li>Become A Supplier</li>
+
+              <li>Track Order</li>
+
+              <li>Services & Membership</li>
+
+              <li>Help & Community</li>
+              </ul>
+            </div>
           </div>
 
           <div className="footer_widget">
             <h5>Buy On E-Commerce</h5>
-            <span>Terms & Condition</span>
-            <br />
-            <span>Privacy Rules</span>
-            <br />
+            <div className="foot_contain">
+              <ul>
+              <li>Terms & Condition</li>
+
+              <li>Privacy Rules</li>
+              </ul>
+            </div>
           </div>
 
           <div className="footer_widget">
             <h5>Download App</h5>
             <div className="footer_img">
-              <img src={Google} alt="Download from Google Play" />
-              <img src={Apple} alt="Download from App Store" />
+              <a href="https://play.google.com/store/apps" target="_blank">
+              <img src={Google} alt="Download from Google Play" /></a>
+              <a href="https://www.apple.com/in/app-store/" target="_blank">
+              <img src={Apple} alt="Download from App Store" /></a>
             </div>
           </div>
         </div>
